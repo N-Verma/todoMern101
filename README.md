@@ -1,4 +1,4 @@
-# MERN Todo App
+# Todo App
 
 The Todo app allows addition of task, due date and tag to these task.
 Every Task can be chekced out or deleted.
