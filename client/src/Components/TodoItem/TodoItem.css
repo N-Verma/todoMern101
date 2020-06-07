@@ -1,0 +1,29 @@
+.itemList .done {
+  padding: 5px;
+  text-decoration: line-through;
+  color: red;
+}
+.not {
+  padding: 5px;
+  text-decoration: none;
+}
+.delete {
+  padding-right: 10px;
+  margin-top: 0.8rem;
+  font-size: 1.5rem;
+}
+.itemList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.itemList .tag{
+  color:black;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.delete :hover {
+  fill: red;
+  transform: scale(1.2);
+}

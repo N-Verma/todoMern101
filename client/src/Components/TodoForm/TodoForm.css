@@ -1,0 +1,136 @@
+.Todoform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.container {
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b31217,
+    #e52d27
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 100%;
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  color: white;
+  margin: 0.9rem;
+  font-size: 1.2rem;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.wrapper {
+  background-color: #5d6062;
+  width: 40%;
+  min-width: 450px;
+  margin-top: 20px;
+  height: 590px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+  overflow: auto;
+}
+
+.Todoform input {
+  width: 40%;
+  display: inline-flex;
+  margin: 10px;
+  height: 2rem;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  outline: none;
+  font-size: 1.1rem;
+  border-style: none;
+}
+.Radio {
+  display: inline-flex;
+  flex-flow: row;
+  width: 70%;
+  margin: 0rem 0.5rem;
+}
+
+.Radio span {
+  margin-top: 1.5rem;
+  margin-right: 0.5rem;
+
+  font-weight: 600;
+}
+.Todoform button {
+  background-color: white;
+  color: black;
+  padding: 0.5rem 3rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+  outline: none;
+  border-style: none;
+  margin: 1.1rem;
+}
+.Add button {
+  background-color: #a7d1f6;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  border-radius: 0.7em;
+}
+.Label button {
+  font-weight: 550;
+}
+.Todoform button:hover {
+  background-color: lightgrey;
+}
+.Todoform hr {
+  opacity: 0.4;
+  border-top: 1px solid #8c8b8b;
+}
+.Search Input {
+  outline: none;
+  color: black;
+  border-radius: 10px 10px 10px 10px;
+  overflow: visible;
+  border-style: solid;
+  width: 30%;
+  height: 20%;
+  box-shadow: none;
+  border-width: 0.009ch;
+  border-color: white;
+  font-size: 17px;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  padding: 0.8rem;
+  position: relative;
+  font-family: Rubik, Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+.Search button {
+  background-color: #a7d1f6;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  border-radius: 0.7em;
+}

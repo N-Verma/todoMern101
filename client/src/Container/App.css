@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+body {
+  background: #e52d27; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b31217, #e52d27);
+  background: linear-gradient(to right, #b31217, #e52d27);
+}
