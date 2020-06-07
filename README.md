@@ -7,7 +7,7 @@ Every Task can be chekced out or deleted.
 1) `git clone` the repo
 2) `npm install`
 3) `nodemon start`
-4) `cd client`  `npm install`
+4) `cd client` After that  `npm install`
 5) `npm run start`
 
 
