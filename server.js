@@ -6,7 +6,7 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local');
 const cors = require('cors');
 const app = express();
-const PORT = process.env.PORT||8080;
+const PORT = process.env.PORT||4000;
 const path = require('path');
 var User = require('./models/user');
 var todoRoute = require('./routes/todo');
@@ -15,7 +15,7 @@ var authRoute = require('./routes/auth');
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-var url=process.env.MONGODB_URI||"mongodb://localhost/todos"
+var url=process.env.MONGODB_URI||"mongodb://localhost:27017/todos"
 mongoose.connect(url,{
         useNewUrlParser: true
     })
